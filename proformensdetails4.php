@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta anme="viewport" content="width=device-width, initialscale=0.1">
+    <title> All Products - Redstore </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+
+            <div class="logo">
+
+                <a href="Project.php"><img src="images/LOGO-BACKGROUND.png" alt="" width="60px"></a>
+
+            </div>
+
+            <nav class="navbara ">
+
+                <ul id="menuitems">
+
+                    <li><a class="it" href="Project.php"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a class="it" href="products.php"> <i class="fas fa-shopping-cart"></i> Products</a></li>
+                    <!-- <li><a class="it" href=""> <i class="fas fa-info-circle"></i> About</a></li> -->
+                    <li><a class="it" href="contact.php"> <i class="far fa-address-book"></i> Contact</a></li>
+                    <li><a class="it" href="homeaccount.php"> <i class="fas fa-user"></i> Account</a></li>
+
+                    <li class="nav-item">
+                        <div class="shake">
+
+                            <a class="nav-link it" href="cart.php"><i class="fas fa-shopping-cart"></i> <span id="cart-item" class="badge badge-danger"></span></a>
+
+
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+    </div>
+
+    <!-- ---------------------Single Products Details--------------------            -->
+
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/Men_single_brested_party_blazer_4.webp" width="100%" id="ProductImg" alt="">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/Men_single_brested_party_blazer_4.webp" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/Men_single_brested_party_blazer_1.webp" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/Men_single_brested_party_blazer_2.webp" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/Men_single_brested_party_blazer_3.webp" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-2">
+                <p>Indian / Saree</p>
+                <h1>Red printd T-shirt by hrx</h1>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>
+                    I am the best nfkwnekwfn webfiwbfjiwbijwbjwbwfbnwknfkwnekwfn
+                    wefwbhbw
+                </p>
+                <h4>&#8377 900</h4>
+                <select name="" id="">
+                    <option> Select Size </option>
+                    <option value="">XXL</option>
+                    <option value="">XL</option>
+                    <option value="">Large</option>
+                    <Option>Medium</Option>
+                    <option value="">Small</option>
+                </select>
+
+                <input type="Number" Value="1">
+                <a href="procart.html" class="btn">Add To Cart</a>
+                <br>
+                <a href="propayment.html" class="btn"><button>Buy Now</button></a>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- --------title--------- -->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <a href="proformalmens.php" class="btn">View More</a>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- --------products------- -->
+
+    <div class="small-container">
+
+        <div class="row">
+            <div class="col-4">
+                <a href="proformensdetails5.php"><img src="images/men_slim_fit_formal_blazer_4.webp" alt=""></a>
+                <h4>REd Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p> &#8377 400</p>
+            </div>
+
+            <div class="col-4">
+                <a href="proformensdetails1.php"><img src="images/english_navy_formal_white_shirt_4.webp" alt=""></a>
+                <h4>REd Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> &#8377 400</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/peter_england_formal_pink_shirt_2.jpg" alt="">
+                <h4>REd Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> &#8377 400</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/01_Mast_&_Harbour_black_blazer.webp" alt="">
+                <h4>REd Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> &#8377 400</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/01_H&M_skinny_fit.webp" alt="">
+                <h4>REd Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p> &#8377 400</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/01_Van_heusen_checked_blazer.webp" alt="">
+                <h4>REd Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> &#8377 400</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/01_jainish_formal_grey_shirt.webp" alt="">
+                <h4>REd Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p> &#8377 400</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/01_dennison_formal_purple_shirt.webp" alt="">
+                <h4>REd Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p> &#8377 400</p>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+
+
+    <!-- ---------------------- Footer ------------------------------------------------------------------------ -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our app</h3>
+                    <!-- <p>downlaod app free andriod and ios mobile phone</p> -->
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/LOGO-BACKGROUND.png" alt="">
+                    <p>A fresh approach to shopping</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <a href="https://en-gb.facebook.com/login/">
+                            <li>Facebook</li>
+                        </a>
+                        <a href="https://twitter.com/login">Twitter</a>
+                        <a href="https://www.instagram.com/accounts/login/">
+                            <li>Instagram</li>
+                        </a>
+                        <a href="https://www.youtube.com/">
+                            <li>YouTube</li>
+                        </a>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - ON-SHOP</p>
+        </div>
+    </div>
+
+
+
+    <!-- ------------js for toggle menu--------------- -->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "200px";
+            } else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+    <!-- ----------js for product gallery------ small photo big----------- -->
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+        SmallImg[0].onclick = function() {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function() {
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function() {
+            ProductImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function() {
+            ProductImg.src = SmallImg[3].src;
+        }
+    </script>
+
+
+
+    <!-- Displaying Products End -->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            // Send product details in the server
+            $(".addItemBtn").click(function(e) {
+                e.preventDefault();
+                var $form = $(this).closest(".form-submit");
+                var pid = $form.find(".pid").val();
+                var pname = $form.find(".pname").val();
+                var pprice = $form.find(".pprice").val();
+                var pimage = $form.find(".pimage").val();
+                var pcode = $form.find(".pcode").val();
+
+                var pqty = $form.find(".pqty").val();
+
+                $.ajax({
+                    url: 'action.php',
+                    method: 'post',
+                    data: {
+                        pid: pid,
+                        pname: pname,
+                        pprice: pprice,
+                        pqty: pqty,
+                        pimage: pimage,
+                        pcode: pcode
+                    },
+                    success: function(response) {
+                        $("#message").html(response);
+                        window.scrollTo(0, 0);
+                        load_cart_item_number();
+                    }
+                });
+            });
+
+            // Load total no.of items added in the cart and display in the navbar
+            load_cart_item_number();
+
+            function load_cart_item_number() {
+                $.ajax({
+                    url: 'action.php',
+                    method: 'get',
+                    data: {
+                        cartItem: "cart_item"
+                    },
+                    success: function(response) {
+                        $("#cart-item").html(response);
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+
+</html>
